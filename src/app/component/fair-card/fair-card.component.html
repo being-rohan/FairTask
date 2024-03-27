@@ -1,0 +1,15 @@
+<div class="card faircard" [routerLink]="['/fairs',faiobj.fairId]">
+    <div class="card-body">
+        <h4 class="text-uppercaase">
+            {{faiobj.fairName}}
+        </h4>
+        <div class="typedate">
+            <p class="" m-0>
+                event type:{{faiobj.type}}
+            </p>
+            <p class="m-0">
+                {{faiobj.startDate*1000| date}}
+            </p>
+        </div>
+    </div>
+</div>
